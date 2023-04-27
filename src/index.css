@@ -1,13 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.webapp-home {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.school-name {
+  text-align: center;
+  color: deepskyblue;
+}
+
+.login {
+  display: grid;
+  background-color: #a7e8ff;
+  border: 1px solid #a7e8ff;
+  border-radius: 1em;
+}
+
+.login-form {
+  text-align: center;
+  padding: 20px;
+}
+
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: inline;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.form-control input {
+  width: 50%;
+  height: 20px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.btn {
+  display: inline-block;
+  background: #aaa4a4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
 }

@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "level_num": 3,
+      "username": "student01",
+      "password": "student01",
+      "first_name": "Student",
+      "last_name": "Sample"
+    },
+    {
+      "id": 2,
+      "level_num": 5,
+      "username": "teacher01",
+      "password": "teacher01",
+      "first_name": "Teacher",
+      "last_name": "Sample"
+    }
+  ]
+}
